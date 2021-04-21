@@ -1,0 +1,31 @@
+.title {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50px;
+    left: 30px;
+
+    p {
+        font-size: 2.3rem;
+        font-family: 'Righteous', cursive;
+        color: $color-3;
+        text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+        transform: rotate(-10deg);
+
+        a {
+            text-decoration: underline;
+            color: black;
+
+            &:hover {
+                color: $color-4;
+            }
+        }
+
+    }
+
+
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
